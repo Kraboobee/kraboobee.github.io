@@ -1,4 +1,5 @@
 import React from 'react';
+import Button from '../Button/Button';
 import images from '../img';
 
 const Generic = () => {
@@ -25,10 +26,7 @@ const Generic = () => {
                     <p className='text-lg'>
                         This includes not only questions about the type of software being used, but also the specific functions and features used most often in that software.
                     </p>
-                    <button 
-                    className='bg-gradient-to-br from-red-500 to-red-700 hover:bg-gradient-to-tl py-1 px-4 rounded-full text-2xl font-medium'>
-                        skills
-                    </button>
+                    <Button />
                 </div>
             </div>      
         </div>
