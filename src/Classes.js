@@ -108,14 +108,34 @@ const educationList = [
     },
     {
         certification: "Bachelor of Arts Honors",
-        date: ["2014"],
+        date: ["01/2014", "11/2014"],
         institution: "University of KwaZulu-Natal",
         summary: "Honors Degree in Media and Cultural Studies, covering topics such as Critical Research Methodology and Cinema Studies"
     },
     {
         certification: "Bachelor of Social Sciences",
-        date: ["2011", "2013"],
+        date: ["06/2011", "11/2013"],
         institution: "University of KwaZulu-Natal",
         summary: "Bachelors Degree with 3 majors in Marketing, Media & Cultural Studies, and Italian"
     },
 ]
+
+const contactList = [
+    {
+        name: "Tel",
+        info: "072 133 9350",
+        link: "#"
+    },
+    {
+        name: "email",
+        info: "kraboobee@gmail.com",
+        link: "mailto:kraboobee@gmail.com"
+    },
+    {
+        name: "LinkedIn",
+        info: "https://www.linkedin.com/in/kaamraan-raboobee/",
+        link: "https://www.linkedin.com/in/kaamraan-raboobee/"
+    },
+]
+
+export { skillList, educationList, experienceList, contactList }

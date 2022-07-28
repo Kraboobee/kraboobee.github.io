@@ -14,6 +14,7 @@ export const Home = () => {
 
                 </div>
                 <Generic />
+                
             </div>
         </div>
     )
