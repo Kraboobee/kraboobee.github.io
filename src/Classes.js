@@ -133,8 +133,13 @@ const contactList = [
     },
     {
         name: "LinkedIn",
-        info: "https://www.linkedin.com/in/kaamraan-raboobee/",
+        info: "linkedin.com/in/kaamraan-raboobee/",
         link: "https://www.linkedin.com/in/kaamraan-raboobee/"
+    },
+    {
+        name: "Github",
+        info: "github.com/Kraboobee",
+        link: "https://github.com/Kraboobee"
     },
 ]
 

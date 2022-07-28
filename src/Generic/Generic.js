@@ -7,40 +7,30 @@ import SelectSection from '../SelectSection/SelectSection';
 const Generic = () => {
     
     return (
-        <div className='container mx-auto mb-5'>
-            <div className='flex flex-row items-center justify-between mx-auto px-5'>
-                <div className="hidden lg:inline basis 1/4">
+        <div className='container mx-auto py-5 md:py-0'>
+            <div className='flex flex-row items-center justify-between mx-auto pr-5'>
+                <div className="hidden lg:inline basis 1/2 bg-gradient-to-br from-purple-400 to-teal-600">
                     <img className='object-contain h-screen'
                     src={ images.SelfPortraitDarkPng } alt="" />
                 </div>
                 <div className='lg:basis-1/2 text-left'>
-                    {/* <div class="text-6xl font-bold ...">
-                        <span class="bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
-                            Kaamraan Raboobee
-                        </span>
-                    </div> */}
-                    <h1 className="bg-clip-text text-transparent text-5xl font-bold bg-gradient-to-r from-teal-300 to-violet-500">
+                    <h1 className="bg-clip-text text-transparent text-6xl md:text-5xl font-bold bg-gradient-to-r from-teal-300 to-violet-500 text-center md:text-left">
                         Kaamraan Raboobee
                     </h1>
+                    <div className='bg-gradient-to-br from-purple-500 to-teal-700 w-80 mx-auto rounded-full mt-5 overflow-hidden md:hidden'>
+                    <img className='w-64 object-center pt-3 mx-auto md:hidden'
+                        src={ images.SelfPortraitDarkPng } alt="" />
+
+                    </div>
                     <br />
-                    <p className='text-3xl font-medium'>
+                    <p className='text-3xl font-medium text-center md:text-left'>
                         Full Stack Software Engineer
                     </p>
-                    <p className='text-xl'>
+                    <p className='text-xl text-center md:text-left'>
                         Specialising in Web Development
                     </p>
                     <br />
-                    {/* <div className='flex flex-row gap-3'>
-                        <Button name={ "Skills" } />
-                        <Button name={ "Education" } />
-                        <Button name={ "Projects" } />
-                        <Button name={ "Contact" } />
-                    </div> */}
-                    {/* <SkillSection />  */}
-                    {/* <ExperienceSection />  */}
-                    {/* <EducationSection />  */}
-                    <SelectSection 
-                    />
+                    <SelectSection />
                 </div>
             </div>      
         </div>
