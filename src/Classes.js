@@ -120,4 +120,22 @@ const educationList = [
     },
 ]
 
-export { skillList, educationList, experienceList }
+const contactList = [
+    {
+        name: "Tel",
+        info: "072 133 9350",
+        link: "#"
+    },
+    {
+        name: "email",
+        info: "kraboobee@gmail.com",
+        link: "mailto:kraboobee@gmail.com"
+    },
+    {
+        name: "LinkedIn",
+        info: "https://www.linkedin.com/in/kaamraan-raboobee/",
+        link: "https://www.linkedin.com/in/kaamraan-raboobee/"
+    },
+]
+
+export { skillList, educationList, experienceList, contactList }

@@ -2,6 +2,7 @@ import { React, useState } from 'react';
 import SkillSection from './Skills';
 import EducationSection from './Education';
 import ExperienceSection from './Experience';
+import ContactSection from './Contact';
 
 function SelectSection() {
     const [section, setSection] = useState(<SkillSection />);
@@ -28,6 +29,13 @@ function SelectSection() {
                             className='bg-black rounded-md px-2 py-2 text-white text-2xl font-medium hover:bg-gradient-to-br from-purple-500 to-teal-700 hover:text-white focus:bg-gradient-to-br focus:text-white'
                             onClick={() => setSection(<ExperienceSection />)}>
                             Experience
+                        </button>
+                    </div>
+                    <div className='bg-gradient-to-br from-purple-500 to-teal-700 py-1 px-1 rounded-md'>
+                        <button
+                            className='bg-black rounded-md px-2 py-2 text-white text-2xl font-medium hover:bg-gradient-to-br from-purple-500 to-teal-700 hover:text-white focus:bg-gradient-to-br focus:text-white'
+                            onClick={() => setSection(<ContactSection />)}>
+                            Contact
                         </button>
                     </div>
             </div>
