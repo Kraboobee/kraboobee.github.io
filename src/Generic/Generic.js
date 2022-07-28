@@ -1,8 +1,8 @@
 import React from 'react';
-import Button from '../Button/Button';
 import images from '../img';
-import SectionView from '../SectionView/SectionView';
-import sectionList from '../Classes';
+// import SectionView from '../SectionView/SectionView';
+import SelectSection from '../SelectSection/SelectSection';
+
 
 const Generic = () => {
     
@@ -10,12 +10,12 @@ const Generic = () => {
         <div className='container mx-auto mb-5'>
             <div className='flex flex-row items-center justify-between mx-auto px-5'>
             {/* <div className='flex flex-row items-center justify-between border-2 rounded-md mx-5 bg-slate-700'> */}
-                <div className="basis 1/4">
+                <div className="hidden lg:inline basis 1/4">
                     <img className='object-contain h-screen'
                     src={ images.SelfPortraitDarkPng } alt="" />
                 </div>
-                <div className='basis-1/2 text-left'>
-                    <h1 className='text-left text-8xl font-semibold text-teal-500/80'>
+                <div className='lg:basis-1/2 text-left'>
+                    <h1 className='text-left text-6xl font-semibold text-teal-500/80'>
                         Kaamraan Raboobee
                     </h1>
                     <br />
@@ -26,13 +26,16 @@ const Generic = () => {
                         Specialising in Web Development
                     </p>
                     <br />
-                    <div className='flex flex-row gap-3'>
+                    {/* <div className='flex flex-row gap-3'>
                         <Button name={ "Skills" } />
                         <Button name={ "Education" } />
                         <Button name={ "Projects" } />
                         <Button name={ "Contact" } />
-                    </div>
-                    <SectionView 
+                    </div> */}
+                    {/* <SkillSection />  */}
+                    {/* <ExperienceSection />  */}
+                    {/* <EducationSection />  */}
+                    <SelectSection 
                     />
                 </div>
             </div>      

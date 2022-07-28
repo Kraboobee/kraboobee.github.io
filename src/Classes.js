@@ -108,16 +108,16 @@ const educationList = [
     },
     {
         certification: "Bachelor of Arts Honors",
-        date: ["2014"],
+        date: ["01/2014", "11/2014"],
         institution: "University of KwaZulu-Natal",
         summary: "Honors Degree in Media and Cultural Studies, covering topics such as Critical Research Methodology and Cinema Studies"
     },
     {
         certification: "Bachelor of Social Sciences",
-        date: ["2011", "2013"],
+        date: ["06/2011", "11/2013"],
         institution: "University of KwaZulu-Natal",
         summary: "Bachelors Degree with 3 majors in Marketing, Media & Cultural Studies, and Italian"
     },
 ]
 
-export const sections = [skillList, experienceList, educationList] 
+export { skillList, educationList, experienceList }
