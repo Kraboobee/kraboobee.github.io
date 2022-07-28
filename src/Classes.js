@@ -119,3 +119,5 @@ const educationList = [
         summary: "Bachelors Degree with 3 majors in Marketing, Media & Cultural Studies, and Italian"
     },
 ]
+
+export const sections = [skillList, experienceList, educationList] 

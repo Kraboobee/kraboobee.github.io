@@ -1,8 +1,11 @@
 import React from 'react';
 import Button from '../Button/Button';
 import images from '../img';
+import SectionView from '../SectionView/SectionView';
+import sectionList from '../Classes';
 
 const Generic = () => {
+    
     return (
         <div className='container mx-auto mb-5'>
             <div className='flex flex-row items-center justify-between mx-auto px-5'>
@@ -29,6 +32,8 @@ const Generic = () => {
                         <Button name={ "Projects" } />
                         <Button name={ "Contact" } />
                     </div>
+                    <SectionView 
+                    />
                 </div>
             </div>      
         </div>
