@@ -16,7 +16,7 @@ const ExperienceSection = () => {
                     <p className='text-lg mb-1'>
                         { exp.date[0] }-{ exp.date[1]}
                     </p>
-                    <ul className='list-disc'>
+                    <ul>
                         { exp.tasks.map((task) => (
                             <li className='text-lg mb-1'>
                                 { task }

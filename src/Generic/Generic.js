@@ -9,7 +9,7 @@ const Generic = () => {
     return (
         <div className='container mx-auto py-5 md:py-0'>
             <div className='flex flex-row items-center justify-between mx-auto pr-5'>
-                <div className="hidden lg:inline basis 1/2 bg-gradient-to-br from-purple-400 to-teal-600">
+                <div className="hidden md:inline basis 1/2 bg-gradient-to-br from-purple-400 to-teal-600">
                     <img className='object-contain h-screen'
                     src={ images.SelfPortraitDarkPng } alt="" />
                 </div>
