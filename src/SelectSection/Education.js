@@ -16,9 +16,9 @@ const EducationSection = () => {
                     <p className='text-lg mb-1'>
                         { edu.date[0] }-{ edu.date[1]}
                     </p>
-                    <p className='text-lg'>
+                    {/* <p className='text-lg'>
                         { edu.summary }
-                    </p>
+                    </p> */}
                 </div>
                 )) }
             </div>

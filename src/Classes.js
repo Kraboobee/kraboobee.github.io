@@ -107,13 +107,13 @@ const educationList = [
         summary: "3-Month Bootcamp covering topics such as data structures and algorithms, the fundamentals of OOP, and development in an agile environment"
     },
     {
-        certification: "Bachelor of Arts Honors",
+        certification: "BA Hons",
         date: ["01/2014", "11/2014"],
         institution: "University of KwaZulu-Natal",
         summary: "Honors Degree in Media and Cultural Studies, covering topics such as Critical Research Methodology and Cinema Studies"
     },
     {
-        certification: "Bachelor of Social Sciences",
+        certification: "BSocSc",
         date: ["06/2011", "11/2013"],
         institution: "University of KwaZulu-Natal",
         summary: "Bachelors Degree with 3 majors in Marketing, Media & Cultural Studies, and Italian"
